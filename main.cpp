@@ -34,7 +34,7 @@ void playGame(){    //game is put in a void function which is run in main
         char letter;
         bool endGame = false;   //bool variable so we can keep running until game has ended.
         while (!endGame) {
-            cout << blanks << endl;
+            cout << endl << blanks << endl;
             cout << guesses << " Guesses left. " << endl;
             cout << "Enter a letter: ";
             cin >> letter;
@@ -54,11 +54,14 @@ void playGame(){    //game is put in a void function which is run in main
             if (blanks == word) {   //the word is guessed completely.
                 endGame = true;
                 cout << word << endl;
+                cout<<endl;
                 cout << "Nice one "<<p2.name<<"! You guessed the word correctly!" << endl;
                 cout << "You had "<<guesses<< " guesses remaining."<<endl;
+                cout<<endl;
             }
             if (guesses == 0) {     //run out of guesses.
                 endGame = true;
+                cout << endl;
                 cout << "You are out of guesses! Game Over." << endl;
                 cout << "The word was: " << word << endl;
             }
@@ -75,6 +78,7 @@ void playGame(){    //game is put in a void function which is run in main
                 cout<<prevWords[j]<<" | ";
             }
             cout<<endl<<"Thanks for playing! Bye!"<<endl;
+            break;
         }
             default:
                 system("clear");
