@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPPproject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPPproject">
+				<Option output="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/cmake-build-debug/CPPproject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/16/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPproject"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPPproject/fast">
+				<Option output="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/cmake-build-debug/CPPproject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/16/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPproject/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nickpalceski/Desktop/Github\ Repos/GuessTheWord/CPPproject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/Player.cpp">
+			<Option target="CPPproject"/>
+		</Unit>
+		<Unit filename="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/Player.h">
+			<Option target="CPPproject"/>
+		</Unit>
+		<Unit filename="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/gameLoop.cpp">
+			<Option target="CPPproject"/>
+		</Unit>
+		<Unit filename="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/main.cpp">
+			<Option target="CPPproject"/>
+		</Unit>
+		<Unit filename="/Users/nickpalceski/Desktop/Github Repos/GuessTheWord/CPPproject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
